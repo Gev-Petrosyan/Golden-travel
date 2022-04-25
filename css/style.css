@@ -12,6 +12,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .logo img {
@@ -20,6 +21,14 @@ nav {
 
 .navbar-toggler {
     margin-top: 10px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-toggler i {
+    font-size: 35px;
+    color: #D9AF42;
 }
 
 .navbar-toggler:focus {
@@ -29,6 +38,8 @@ nav {
 }
 
 .nav-one {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #D9AF42;
     display: flex;
     justify-content: center;
@@ -43,6 +54,21 @@ nav {
     font-size: 14px;
     color: #FFFFFF;
     margin-bottom: 0;
+}
+
+.dropdown-menu {
+    background-color: #00234D !important;
+    border: none;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #00234D !important;
+    background-size: 0% 2px;
+    color: #D4A83D !important;
 }
 
 .icons {
@@ -94,6 +120,17 @@ nav {
     font-size: 16px !important;
     line-height: 24px !important;
     color: #E4E4E4 !important;
+    background-image: linear-gradient(90deg, #D9AF42, #D9AF42);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    text-decoration: none;
+    font-weight: 900;
+    transition: background-size 300ms ease;
+}
+
+.nav-two a:hover {
+    background-size: 100% 2px;
 }
 
 .header {
@@ -423,6 +460,15 @@ nav {
     }
 }
 
+@media (max-width: 1000px) {
+    .section-one-part-one-div-one-text h2 {
+        font-size: 18px !important;
+    }
+    .section-one-part-one-div-one-text p {
+        font-size: 16px !important;
+    }
+}
+
 @media (max-width: 650px) {
     .section-one-part-one-div-one-text h2 {
         font-size: 16px !important;
@@ -487,6 +533,13 @@ nav {
     color: #FFFFFF;
 }
 
+@media (max-width: 575px) {
+    .section-one-part-two-div {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
 .section-one-part-two-div-title {
     font-family: 'Inter';
     font-style: normal;
@@ -515,17 +568,19 @@ nav {
     margin: 20px;
 }
 
-.section-one-part-two-div-info-div i {
-    color: #D4A83D;
-    font-size: 50px;
+.section-one-part-two-div-info-div-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.section-one-part-two-div-info-div-image img {
+    width: 65px;
+}
+
 .section-one-part-two-div-info-div p {
     border-left: 2px dashed #D4A83D;
-    height: 12vh;
+    height: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -683,6 +738,20 @@ nav {
     justify-content: center;
     align-items: center;
     background-image: url('../image/Rectangle 97.jpg');
+}
+
+@media (max-width: 575px) {
+    .section-three {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-three {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
 }
 
 .form {
