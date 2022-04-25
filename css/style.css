@@ -109,7 +109,7 @@ nav {
         font-size: 11px !important;
     }
     .logo img {
-        width: 120px !important;
+        width: 200px !important;
     }
 }
 
@@ -121,7 +121,7 @@ nav {
         font-size: 9px !important;
     }
     .logo img {
-        width: 80px !important;
+        width: 160px !important;
     }
 }
 
@@ -1054,6 +1054,9 @@ footer {
 }
 
 @media (max-width: 992px) {
+    .footer-nav .navbar-nav a {
+        font-size: 18px !important;
+    }
     .footer-content {
         display: inline !important;
         justify-content: space-between !important;
@@ -1061,9 +1064,13 @@ footer {
     .footer-content p {
         float: none !important;
         text-align: center;
+        font-size: 18px !important;
     }
     .footer-content div {
         margin-bottom: 40px !important;
+        margin: auto;
+    }
+    .footer-content div p {
         margin: auto;
     }
     .author {
