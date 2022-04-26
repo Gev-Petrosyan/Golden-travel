@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -598,9 +600,13 @@ nav {
     .header-info {
         width: 85%;
     }
+    .header-info-one-div-p1,
+    .header-info-one-div-p2 {
+        font-size: 11px;
+    }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
     .header-info {
         display: inline;
     }
@@ -1219,8 +1225,8 @@ nav {
 }
 
 .section-one-part-three-div-bogash-div {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 2px black;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     justify-content: center;
     align-items: center;
     margin: 5px;
