@@ -19,17 +19,17 @@
                     <div class="logo col-3">
                         <img src="image/image1.png" alt="">
                     </div>
-                    <div class="col-9">
+                    <div class="nav-group col-9">
                         <div class="row nav-one">
-                            <div class="col-4">
-                                <p><i class="fa-solid fa-location-dot"></i> г. Калининград, Советский пр-т, 6А</p>
-                                <p>Паркинг у SPAR 30 мин бесплатно</p>
+                            <div class="nav-one-block-one col-4">
+                                <p><i class="nav-one-block-one fa-solid fa-location-dot"></i> г. Калининград, Советский пр-т, 6А</p>
+                                <p class="nav-one-p2">Паркинг у SPAR 30 мин бесплатно</p>
                             </div>
-                            <div class="col-4">
+                            <div class="nav-one-block-two col-4">
                                 <p><i class="fa-solid fa-phone"></i> 8 (4012) 52 53 56</p>
                                 <p><i class="fa-solid fa-phone"></i> 8 (921) 710 53 56</p>
                             </div>
-                            <div class="col-4">
+                            <div class="nav-one-block-three col-4">
                                 <p><i class="fa-solid fa-envelope"></i> golden-39@mail.ru</p>
                                 <div class="icons">
                                     <div class="icons-fasebook">
@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <div class="row nav-two">
-                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <button class="navbar-toggler" id="nav-button" type="button">
                                 <i class="fa-solid fa-bars"></i>
                               </button>
                               <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -127,6 +127,111 @@
                                     <a class="nav-link" href="#">О нас</a>
                                   </li>
                             </ul>
+                        </div>
+                        <div class="nav-ul">
+                            <div class="content">
+                                <div class="content-logo">
+                                    <div class="col-7">
+                                        <img src="image/image1.png" alt="">
+                                    </div>
+                                    <div class="col-5">
+                                        <button class="btn content-button" id="nav-close">
+                                            <img src="image/x.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="content-menu">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Страны
+                                          </a>
+                                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Абхазия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Австрия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Андорра</a></li>
+                                                  <li><a class="dropdown-item" href="#">Беларусь</a></li>
+                                              </div>
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Болгария</a></li>
+                                                  <li><a class="dropdown-item" href="#">Венгрия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Вьетнам</a></li>
+                                                  <li><a class="dropdown-item" href="#">Германия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Греция</a></li>
+                                              </div>
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Доминикана</a></li>
+                                                  <li><a class="dropdown-item" href="#">Египет</a></li>
+                                                  <li><a class="dropdown-item" href="#">Израиль</a></li>
+                                                  <li><a class="dropdown-item" href="#">Индия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Индонезия</a></li>
+                                              </div>
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Гоа</a></li>
+                                                  <li><a class="dropdown-item" href="#">Бали</a></li>
+                                                  <li><a class="dropdown-item" href="#">Иордания</a></li>
+                                                  <li><a class="dropdown-item" href="#">Италия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Италия</a></li>
+                                              </div>
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Камбоджа</a></li>
+                                                  <li><a class="dropdown-item" href="#">Кипр</a></li>
+                                                  <li><a class="dropdown-item" href="#">Китай</a></li>
+                                                  <li><a class="dropdown-item" href="#">Куба</a></li>
+                                                  <li><a class="dropdown-item" href="#">Литва</a></li>
+                                              </div>
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Маврикий</a></li>
+                                                  <li><a class="dropdown-item" href="#">Малайзия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Мальдивы</a></li>
+                                                  <li><a class="dropdown-item" href="#">Мальта</a></li>
+                                                  <li><a class="dropdown-item" href="#">Марокко</a></li>
+                                              </div>
+                                              <div class="dropdown-items">
+                                                  <li><a class="dropdown-item" href="#">Мексика</a></li>
+                                                  <li><a class="dropdown-item" href="#">Нидерланды</a></li>
+                                                  <li><a class="dropdown-item" href="#">Польша</a></li>
+                                                  <li><a class="dropdown-item" href="#">Португалия</a></li>
+                                                  <li><a class="dropdown-item" href="#">Россия</a></li>
+                                              </div>
+                                          </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Поиск туров</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Горящие туры</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Автобусные туры</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Круизы</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Авиабилеты</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">Страховки</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">О нас</a>
+                                        </li>
+                                  </ul>
+                                </div>
+                                <div class="content-info">
+                                    <p><i class="nav-one-block-one fa-solid fa-location-dot"></i> г. Калининград, Советский пр-т, 6А</p>
+                                    <p class="nav-one-p2">Паркинг у SPAR 30 мин бесплатно</p>
+                                </div>
+                                <div class="content-info">
+                                    <p><i class="fa-solid fa-phone"></i> 8 (4012) 52 53 56</p>
+                                    <p><i class="fa-solid fa-phone"></i> 8 (921) 710 53 56</p>
+                                </div>
+                                <div class="content-info">
+                                    <p><i class="fa-solid fa-envelope"></i> golden-39@mail.ru</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -384,7 +489,7 @@
                                 </div>
                             </div>
                             <div class="section-two-button col-12">
-                                <div class="col-4">
+                                <div class="col-4" style="width: auto">
                                     <button class="btn">НАПИШИТЕ НАМ</button>
                                 </div>
                             </div>
@@ -582,5 +687,7 @@
 
     
     <script src="https://kit.fontawesome.com/ba53ee2513.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
